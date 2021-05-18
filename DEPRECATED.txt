@@ -1,0 +1,3 @@
+﻿This library is deprecated in favor of:
+
+R5T.Newport/R5T.Newport.Extensions

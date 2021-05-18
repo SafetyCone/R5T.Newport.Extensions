@@ -15,14 +15,9 @@ namespace R5T.Newport
         /// <summary>
         /// No async version since Newtonsoft does not have async!
         /// </summary>
-        public static void WriteToFile<T>(string jsonFilePath, T value, bool overwrite = IOHelper.DefaultOverwriteValue)
+        public static void WriteToFile<T>(string jsonFilePath, T value, Formatting formatting = JsonHelper.DefaultFormatting, bool overwrite = IOHelper.DefaultOverwriteValue)
         {
-            var settings = new JsonSerializerSettings
-            {
-                Formatting = Formatting.Indented,
-            };
-
-            var serializer = JsonSerializer.Create(settings);
+            var serializer = Utilities.GetStandardJsonSerializer(formatting);
 
             serializer.Serialize(jsonFilePath, value, overwrite);
         }
