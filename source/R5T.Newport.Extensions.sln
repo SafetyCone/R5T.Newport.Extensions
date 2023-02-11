@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Newport.Extensions.Construction", "R5T.Newport.Extensions.Construction\R5T.Newport.Extensions.Construction.csproj", "{482F37AA-AD9A-4C38-9729-3A239C99D018}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Newport.Extensions", "R5T.Newport.Extensions\R5T.Newport.Extensions.csproj", "{6926A629-C713-45DA-A4B8-BCEBA1774B64}"
@@ -16,6 +16,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Newport", "..\..\R5T.Newport\source\R5T.Newport\R5T.Newport.csproj", "{FC2C0318-5629-41FD-990E-49149D09881A}"
 EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{56C52BD9-4074-4688-867E-C0BBF50799CA} = {5D77957C-C6F9-4253-99A1-F49F72C87501}
+		{FC2C0318-5629-41FD-990E-49149D09881A} = {5D77957C-C6F9-4253-99A1-F49F72C87501}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -88,10 +92,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{56C52BD9-4074-4688-867E-C0BBF50799CA} = {5D77957C-C6F9-4253-99A1-F49F72C87501}
-		{FC2C0318-5629-41FD-990E-49149D09881A} = {5D77957C-C6F9-4253-99A1-F49F72C87501}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3054D902-ED30-43EE-BF03-490BA3C58CB3}
